@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="src" path="config"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/common_2.7.6"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/hdfs_2.7.6"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/mapreduce_2.7.6"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/yarn_2.7.6"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
