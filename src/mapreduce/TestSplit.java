@@ -48,6 +48,7 @@ public class TestSplit {
         String tempAuthorStr="张三;李四,拿破仑，王五；曹操 周瑜";;
         String[] tmpAuthors=tempAuthorStr.split("\\s+|;|,|，|；");
         System.out.println(Arrays.toString(tmpAuthors));
+       
         
 	}
 }
