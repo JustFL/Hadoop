@@ -20,7 +20,7 @@ public class DeleteSpecificFile {
 		FileSystem fs = FileSystem.get(new URI("hdfs://192.168.159.100:9000"), conf, "hadoop");
 		
 		Path path = new Path("/");
-		Delete(fs,path,"wordcountout");
+		Delete(fs,path,"mr1_");
 	}
 
 	public static void Delete(FileSystem fs, Path path, String string) throws FileNotFoundException, IOException {

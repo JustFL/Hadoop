@@ -24,7 +24,7 @@ public class DeleteSpecificPath {
 		
 		FileStatus[] listStatus = fs.listStatus(new Path("/"));
 		for (FileStatus fStatus : listStatus) {
-			if (fStatus.isDirectory() && fStatus.getPath().getName().contains("groupsort")) {
+			if (fStatus.isDirectory() && fStatus.getPath().getName().contains("mr1_0")) {
 				fs.delete(fStatus.getPath(), true);
 			}
 		}
